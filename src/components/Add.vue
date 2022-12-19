@@ -59,7 +59,7 @@ export default {
         add() {
         console.log(this.list)
         console.log(this.value1);
-        if(this.value.length) {
+        if(this.value.length && this.value1.length) {
           this.list.push({
             titleName: this.value,
             title: this.value1,
